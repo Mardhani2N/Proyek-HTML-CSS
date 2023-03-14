@@ -1,0 +1,26 @@
+/* Awal Header */
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .header-logo {
+        padding: 30px 4px 30px 15px;
+    }
+}
+
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .header-logo {
+        padding: 30px 4px 30px 15px;
+    }
+    
+    .header-list {
+        display: none;
+      }
+      
+    .menu-icon {
+        display: block;
+    }
+}
+
+/* Akhir Header */
