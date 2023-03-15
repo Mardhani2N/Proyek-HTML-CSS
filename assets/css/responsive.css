@@ -4,13 +4,17 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
     .header-logo {
-        padding: 30px 4px 30px 15px;
+        padding: 30px 4px 30px 40px;
+    }
+
+    .header-list li {
+        padding: 0px 20px;
     }
 }
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
     .header-logo {
-        padding: 30px 4px 30px 15px;
+        padding: 30px 4px 30px 20px;
     }
     
     .header-list {
@@ -22,6 +26,59 @@
     }
 }
 /* Akhir Header */
+
+/* Awal Main */
+/* by Rutlima Sinaga */
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .col-left {
+        padding: 120px 40px;
+    }
+
+    .col-left h1 {
+        font-size: 24px;
+    }
+    .col-right {
+        padding-top: 50px;
+        padding-right: 40px;
+    }
+
+    .deskripsi {
+        height: 450px;
+    }
+    .deskripsi p {
+        font-size: 18px;
+        text-align: justify;
+        line-height: 20px;
+        padding: 20px 30px;
+    }
+}
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .col-left {
+        padding: 50px 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .col-left h1 {
+        font-size: 20px;
+    }
+    .col-right {
+        padding-right: 90px;
+        padding-left: 90px;
+        margin-top: -80px;
+    }
+
+    .deskripsi p {
+        font-size: 12px;
+        text-align: justify;
+        line-height: 20px;
+        padding: 20px 30px;
+    }
+}
+/* Akhir Main */
 
 /* Awal Body */
 /* by Regi Ridho Biyantomo */

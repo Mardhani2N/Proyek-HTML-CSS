@@ -69,6 +69,49 @@
 }
 /* Akhir Header */
 
+/* Awal Main */
+/* by Rutlima Sinaga */
+.main {
+    padding-top: 100px;
+    height: 450px;
+    background-color: #D9F1E5;
+}
+
+.col-left {
+    float: left;
+    padding: 120px 100px;
+}
+
+.col-left h1 {
+    font-size: 34px;
+    color: #FC6713;
+    text-align: center;
+}
+
+.col-right {
+    padding-top: 50px;
+    float: right;
+    padding-right: 100px;
+}
+
+#image {
+    width: 100%;
+}
+
+.deskripsi {
+    height: 400px;
+    padding: 50px 60px;
+}
+
+.deskripsi p {
+    font-size: 24px;
+    text-align: justify;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+/* Akhir Main */
+
 /* Awal Body (choices) */
 /* by Regi Ridho Biyantomo */
 .container .choice {
