@@ -1,13 +1,12 @@
 * {
     box-sizing: border-box;
     font-family: 'Poppins';
-}
-  
-body {
     margin: 0;
+    padding: 0;
 }
 
 /* Awal Header */
+/* by Mardhani Dwi Novianto */
 .header {
     background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -59,9 +58,99 @@ body {
     display: none;
     margin-top: -50px;
 }
-
 /* Akhir Header */
 
+/* Awal Body (choices) */
+/* by Regi Ridho Biyantomo */
+.container .choice {
+    margin: 0 25px;
+}
+  
+.container .choice img {
+width: 250px;
+height: 250px;
+border: 2px solid #dfdfdf;
+margin-bottom: 5px;
+object-fit: cover;
+border-radius: 5px;
+}
+
+.container {
+display: flex;
+justify-content: center;
+text-align: center;
+flex-wrap: wrap;
+align-items: center;
+}
+
+.choices {
+text-transform: capitalize;
+padding: 100px 0 50px 0;
+background-color: #d9f1e5;
+text-align: center;
+}
+
+.title {
+margin-bottom: 30px;
+font-size: 24px;
+}
+
+.choices button {
+margin-top: 80px;
+padding: 10px 50px;
+border-radius: 50px;
+background-color: #0ad663;
+color: #fff;
+text-transform: uppercase;
+border: none;
+font-weight: bold;
+letter-spacing: 1px;
+opacity: 0.8;
+box-shadow: 0 7px #1a7940;
+}
+
+.choices button:hover {
+opacity: 1;
+cursor: pointer;
+}
+
+.choices button:active {
+box-shadow: none;
+position: relative;
+top: 7px;
+}
+/* Akhir Body (choices) */
+
+/* Awal Body (what_u_get) */
+/* by Regi Ridho Biyantomo */
+.what-u-get {
+text-transform: capitalize;
+padding: 100px 0 100px 0;
+text-align: center;
+}
+
+.what-u-get .container img {
+width: 250px;
+height: 250px;
+object-fit: cover;
+border-radius: 5px 5px 0 0;
+}
+
+.container .wug-card .wug-descript {
+padding: 5px 0 10px 0;
+}
+
+.container .wug-card {
+border: 2px solid #dfdfdf;
+border-radius: 5px;
+margin: 0 25px;
+}
+
+.container .wug-card:hover {
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+transition: all 0.5s;
+}
+/* Akhir Body (what_u_get) */
 
 
 
