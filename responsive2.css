@@ -1,0 +1,24 @@
+@media all and (max-width: 1000px) {
+  .container .choice {
+    width: 40%;
+    margin: 0 0 50px;
+  }
+
+  .choices button {
+    margin-top: 40px;
+  }
+
+  .container .wug-card {
+    margin: 0 50px 50px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .container .choice {
+    width: 100%;
+  }
+
+  .choices button {
+    margin-top: 0;
+  }
+}
