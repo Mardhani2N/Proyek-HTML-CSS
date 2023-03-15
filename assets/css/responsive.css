@@ -26,3 +26,36 @@
 }
 
 /* Akhir Header */
+
+
+/* Awal Footer */
+
+/* by Galang Sumantri */
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .footer {
+        padding: 0px 50px;
+    }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 800px) {
+    .footer {
+        padding: 0px 30px;
+    }
+
+    .footer-top {
+        display: block;
+    }
+
+    .footer-bottom {
+        display: block;
+    }
+
+    .sosmed {
+        padding-bottom: 20px;
+    }
+}
+
+/* Akhir Footer */
