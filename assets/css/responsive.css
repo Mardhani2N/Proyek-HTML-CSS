@@ -57,9 +57,10 @@
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
     .col-left {
-        padding: 50px 50px;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-top: 30px;
+        padding: 20px 0px;
+        margin-left: 80px;
+        margin-right: 80px;
     }
 
     .col-left h1 {
@@ -68,14 +69,23 @@
     .col-right {
         padding-right: 90px;
         padding-left: 90px;
-        margin-top: -80px;
+        margin-top: -40px;
+    }
+
+    .deskripsi {
+        height: 550px;
     }
 
     .deskripsi p {
         font-size: 12px;
         text-align: justify;
         line-height: 20px;
-        padding: 20px 30px;
+        margin-top: -20px;
+        padding: 0px 10px 30px 10px;
+    }
+
+    #image {
+        width: 100%;
     }
 }
 /* Akhir Main */
