@@ -100,10 +100,6 @@
 /* Akhir Formulir */ 
 
 /* Awal Footer */
-<<<<<<< HEAD
-
-=======
->>>>>>> c57b36632ea97c89c990209deb486599f4f31626
 /* by Galang Sumantri */
 
 /* Untuk Tablet */
@@ -112,14 +108,8 @@
         padding: 0px 50px;
     }
 }
-<<<<<<< HEAD
-
-/* Untuk Smartphone */
-@media all and (max-width: 800px) {
-=======
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
->>>>>>> c57b36632ea97c89c990209deb486599f4f31626
     .footer {
         padding: 0px 30px;
     }
@@ -136,8 +126,4 @@
         padding-bottom: 20px;
     }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> c57b36632ea97c89c990209deb486599f4f31626
 /* Akhir Footer */
