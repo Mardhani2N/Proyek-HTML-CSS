@@ -92,6 +92,14 @@ body {
     align-self: center;
 }
 
+.footer-top a {
+    text-decoration:none;
+}
+
+.footer-top a:hover p {
+    color:grey;
+}
+
 .footer-bottom {
     display:flex;
     flex-direction: row-reverse;
@@ -106,6 +114,10 @@ body {
     width: 170px;
     align-items: center;
     justify-content: space-between;
+}
+
+.sosmed a:hover img {
+    transform: scale(1.2);
 }
 
 /* Akhir Footer */
