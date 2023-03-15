@@ -7,6 +7,23 @@
     .header-logo {
         padding: 30px 4px 30px 15px;
     }
+    
+/* Awal Formulir */
+  .form-left{
+  width: 55%;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 230px;
+  padding-left: 30px;
+  padding-right: 0px;
+ }
+
+.form-right{
+  width: 45%;
+  padding-left: 25px;
+ }
+ /* Akhir Formulir */
+    
 }
 
 
@@ -23,6 +40,23 @@
     .menu-icon {
         display: block;
     }
+    
+ /* Awal Formulir */
+  .form {
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+  }
+  
+  .form-left {
+    font-size: 24px;
+    padding-top: 40px;
+  }
+ /* Akhir Formulir */
+    
 }
 
 /* Akhir Header */
