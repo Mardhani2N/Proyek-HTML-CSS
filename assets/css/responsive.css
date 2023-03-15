@@ -1,5 +1,4 @@
 /* Awal Header */
-
 /* by Mardhani Dwi Novianto */
 
 /* Untuk Tablet */
@@ -8,8 +7,6 @@
         padding: 30px 4px 30px 15px;
     }
 }
-
-
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
     .header-logo {
@@ -24,9 +21,83 @@
         display: block;
     }
 }
-
 /* Akhir Header */
 
+/* Awal Body */
+/* by Regi Ridho Biyantomo */
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .container .choice {
+      width: 40%;
+      margin: 0 0 50px;
+    }
+  
+    .choices button {
+      margin-top: 40px;
+    }
+  
+    .container .wug-card {
+      margin: 0 50px 50px;
+    }
+}
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .container .choice {
+      width: 100%;
+    }
+  
+    .choices button {
+      margin-top: 0;
+    }
+}
+/* Akhir Body */ 
+
+/* Awal Formulir */
+/* by Zaenul Hambyah */
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .form-left{
+        width: 55%;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 230px;
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+      
+    .form-right{
+        width: 45%;
+        padding-left: 45px;
+    }
+}
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .form {
+        width: 100%;
+        /* padding-bottom: 40px; */
+        /* padding-top: 0px; */
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        /* padding-left: 50px; */
+    }
+      
+    .form-left {
+        /* font-size: 24px; */
+        /* padding-top: 40px; */
+        padding-top: 60px;
+    }
+    
+    .form-left h2 {
+        font-size: 24px;
+        margin-left: 20px;
+        /* margin-right: -40px; */
+    }
+}
+/* Akhir Formulir */ 
 
 /* Awal Footer */
 
