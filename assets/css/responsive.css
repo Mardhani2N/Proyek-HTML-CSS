@@ -1,4 +1,5 @@
 /* Awal Header */
+/* by Mardhani Dwi Novianto */
 
 /* by Mardhani Dwi Novianto */
 
@@ -8,8 +9,6 @@
         padding: 30px 4px 30px 15px;
     }
 }
-
-
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
     .header-logo {
@@ -24,5 +23,34 @@
         display: block;
     }
 }
-
 /* Akhir Header */
+
+/* Awal Body */
+/* by Regi Ridho Biyantomo */
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .container .choice {
+      width: 40%;
+      margin: 0 0 50px;
+    }
+  
+    .choices button {
+      margin-top: 40px;
+    }
+  
+    .container .wug-card {
+      margin: 0 50px 50px;
+    }
+}
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .container .choice {
+      width: 100%;
+    }
+  
+    .choices button {
+      margin-top: 0;
+    }
+}
+/* Akhir Body */ 
