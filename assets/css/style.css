@@ -5,6 +5,7 @@
     padding: 0;
 }
 
+
 /* Awal Header */
 /* by Mardhani Dwi Novianto */
 .header {
@@ -22,6 +23,11 @@
     font-size: 18px;
     font-weight: 600;
     padding-top: 35px;
+}
+
+.header-name a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .header-list {
@@ -67,90 +73,176 @@
 }
   
 .container .choice img {
-width: 250px;
-height: 250px;
-border: 2px solid #dfdfdf;
-margin-bottom: 5px;
-object-fit: cover;
-border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #dfdfdf;
+    margin-bottom: 5px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .container {
-display: flex;
-justify-content: center;
-text-align: center;
-flex-wrap: wrap;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .choices {
-text-transform: capitalize;
-padding: 100px 0 50px 0;
-background-color: #d9f1e5;
-text-align: center;
+    text-transform: capitalize;
+    padding: 100px 0 50px 0;
+    background-color: #d9f1e5;
+    text-align: center;
 }
 
 .title {
-margin-bottom: 30px;
-font-size: 24px;
+    margin-bottom: 30px;
+    font-size: 24px;
 }
 
 .choices button {
-margin-top: 80px;
-padding: 10px 50px;
-border-radius: 50px;
-background-color: #0ad663;
-color: #fff;
-text-transform: uppercase;
-border: none;
-font-weight: bold;
-letter-spacing: 1px;
-opacity: 0.8;
-box-shadow: 0 7px #1a7940;
+    margin-top: 80px;
+    padding: 10px 50px;
+    border-radius: 50px;
+    background-color: #0ad663;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    box-shadow: 0 7px #1a7940;
 }
 
 .choices button:hover {
-opacity: 1;
-cursor: pointer;
+    opacity: 1;
+    cursor: pointer;
 }
 
 .choices button:active {
-box-shadow: none;
-position: relative;
-top: 7px;
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.choices a {
+    text-decoration: none;
 }
 /* Akhir Body (choices) */
 
 /* Awal Body (what_u_get) */
 /* by Regi Ridho Biyantomo */
 .what-u-get {
-text-transform: capitalize;
-padding: 100px 0 100px 0;
-text-align: center;
+    text-transform: capitalize;
+    padding: 100px 0 100px 0;
+    text-align: center;
 }
 
 .what-u-get .container img {
-width: 250px;
-height: 250px;
-object-fit: cover;
-border-radius: 5px 5px 0 0;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
 }
 
 .container .wug-card .wug-descript {
-padding: 5px 0 10px 0;
+    padding: 5px 0 10px 0;
 }
 
 .container .wug-card {
-border: 2px solid #dfdfdf;
-border-radius: 5px;
-margin: 0 25px;
+    border: 2px solid #dfdfdf;
+    border-radius: 5px;
+    margin: 0 25px;
 }
 
 .container .wug-card:hover {
-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
-transition: all 0.5s;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
 }
 /* Akhir Body (what_u_get) */
 
+/* Awal Formulir */
+/* by Zaenul Hambyah */
+.register-form {
+    height: 600px;
+    background-color:#D9F1E5;
+}
+  
+.form {
+    float: left;
+    padding-top: 120px;
+    /* padding-bottom: 100px; */
+    padding-left: 0px;
+    /* padding-right: 0px; */
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.form-left {
+    width: 55%;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 105px;
+    /* padding-right: 25px; */
+    /* padding-right: 150px; */
+    /* margin-left: -50px; */
+}
+
+.form-right {
+    /* width: 45%; */
+    padding-left: 100px;
+    /* margin-right: -20px; */
+}
+
+.section-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.form p{
+    font-size: 15px;
+}
+
+input {
+    width: 215px;
+    /* height: 26; */
+    height: 26px;
+    margin-top: 10px;
+    /* margin-bottom:30px; */
+    margin-bottom: 12px;
+    /* padding:20px; */
+    padding: 15px;
+    font-size:15px;
+    background-color: #D9D9D9;
+    border: 1px solid #000 ;
+    border-radius: 20px;
+}
+
+.register-btn {
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color:#083AF2;
+    color:#FFF;
+    border: 1px solid #000 ;
+    display: inline-block;
+    padding: 15px 40px;
+    cursor: pointer;
+    opacity: 0.8;
+    box-shadow: 0 5px #0A2175;
+}
+
+.register-btn:hover{
+    opacity: 1;
+}
+
+.register-btn:active {
+    position: relative;
+    top: 9px;
+    box-shadow: none;
+}
+/* Akhir Formulir */
+  
 
 
