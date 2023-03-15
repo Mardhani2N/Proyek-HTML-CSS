@@ -71,7 +71,40 @@ body {
 
 .footer {
     background-color: #383838;
-    height: 447px;
+    padding: 0px 135px;
+    margin-top: 30%;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.footer-top {
+    display:flex;
+    justify-content: space-between;
+    padding: 85px 0;
+}
+
+.footer-top p {
+    align-self: center;
+}
+
+.footer-bottom {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top:solid 1px #747474;
+    padding: 50px 0;
+}
+
+.sosmed {
+    display:flex;
+    width: 170px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Akhir Footer */
