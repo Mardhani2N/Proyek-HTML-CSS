@@ -72,26 +72,28 @@
 /* Awal Main */
 /* by Rutlima Sinaga */
 .main {
-    padding-top: 100px;
-    height: 450px;
+    display: flex;
+    justify-content: center;
+    padding-top: 92px;
     background-color: #D9F1E5;
 }
 
 .col-left {
     float: left;
-    padding: 120px 100px;
+    padding: 230px 100px;
 }
 
 .col-left h1 {
     font-size: 34px;
     color: #FC6713;
     text-align: center;
+    /* height: 78.18px;
+    width: 340.11px; */
 }
 
 .col-right {
-    padding-top: 50px;
     float: right;
-    padding-right: 100px;
+    margin: auto 100px;
 }
 
 #image {
@@ -99,17 +101,15 @@
 }
 
 .deskripsi {
-    height: 400px;
-    padding: 50px 60px;
+    padding: 180px 135px;
 }
 
 .deskripsi p {
     font-size: 20px;
     text-align: justify;
     line-height: 30px;
-    padding-top: 20px;
+    padding: 10px 0;
 }
-
 /* Akhir Main */
 
 /* Awal Body (choices) */

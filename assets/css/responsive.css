@@ -33,59 +33,32 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
     .col-left {
-        padding: 120px 40px;
-    }
-
-    .col-left h1 {
-        font-size: 24px;
-    }
-    .col-right {
-        padding-top: 50px;
-        padding-right: 40px;
+        float: left;
+        padding: 100px 5%;
+        margin-left: 50px;
     }
 
     .deskripsi {
-        height: 450px;
-    }
-    .deskripsi p {
-        font-size: 18px;
-        text-align: justify;
-        line-height: 30px;
-        padding: 20px 30px;
+        padding: 50px;
     }
 }
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-    .col-left {
-        margin-top: 30px;
-        padding: 20px 0px;
-        margin-left: 80px;
-        margin-right: 80px;
-    }
-
-    .col-left h1 {
-        font-size: 20px;
-    }
-    .col-right {
-        padding-right: 90px;
-        padding-left: 90px;
-        margin-top: -40px;
-    }
-
     .deskripsi {
-        height: 550px;
+        padding: 30px;
     }
 
-    .deskripsi p {
-        font-size: 12px;
-        text-align: justify;
-        line-height: 20px;
-        margin-top: -20px;
-        padding: 0px 10px 30px 10px;
+    .main {
+        flex-direction: column;
     }
 
-    #image {
-        width: 100%;
+    .col-left {
+        padding: 80px 1%;
+        margin-left: 0;
+    }
+
+    .col-right {
+        padding-bottom: 80px;
     }
 }
 /* Akhir Main */
